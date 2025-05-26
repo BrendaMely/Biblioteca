@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1747882549 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\main.cpp
+	<iostream>
+	<cstring>
+	"menuSocios.h"
+	"menuLibros.h"
+	"menuPrestamos.h"
+	"menuPagos.h"
+	"menuInformes.h"
+	"Fecha1.h"
+
+1748257692 c:\users\user\desktop\biblioteca\proyectobiblioteca\menusocios.h
+	<iostream>
+	"funcionesMenuSocios.h"
+
+1748259386 c:\users\user\desktop\biblioteca\proyectobiblioteca\menulibros.h
+	<iostream>
+	"funcionesMenuLibros.h"
+
+1748259386 c:\users\user\desktop\biblioteca\proyectobiblioteca\menuprestamos.h
+	<iostream>
+	"funcionesMenuPrestamos.h"
+
+1748259922 c:\users\user\desktop\biblioteca\proyectobiblioteca\menupagos.h
+	<iostream>
+	"funcionesMenuPagos.h"
+
+1748257182 c:\users\user\desktop\biblioteca\proyectobiblioteca\menuinformes.h
+	<iostream>
+	"funcionesMenuInformes.h"
+
+1748257692 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenusocios.h
+
+1748257692 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenusocios.cpp
+	<iostream>
+	"funcionesMenuSocios.h"
+
+1748258530 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenulibros.h
+
+1748258530 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenulibros.cpp
+	<iostream>
+	"funcionesMenuLibros.h"
+
+1748259386 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuprestamos.h
+
+1748259386 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuprestamos.cpp
+	<iostream>
+	"funcionesMenuPrestamos.h"
+
+1748259922 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenupagos.h
+
+1748259922 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenupagos.cpp
+	<iostream>
+	"funcionesMenuPagos.h"
+
+1748257182 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuinformes.h
+
+1748257182 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuinformes.cpp
+	<iostream>
+	"funcionesMenuInformes.h"
+
+1747802664 c:\users\user\desktop\biblioteca\proyectobiblioteca\fecha.h
+
+1747882514 c:\users\user\desktop\biblioteca\proyectobiblioteca\fecha1.h
+
+1747882514 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\fecha1.cpp
+	<iostream>
+	"Fecha1.h"
+
