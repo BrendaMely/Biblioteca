@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="proyectoBiblioteca" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/proyectoBiblioteca" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/proyectoBiblioteca" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ArchivoAutores.cpp" />
+		<Unit filename="ArchivoAutores.h" />
+		<Unit filename="ArchivoLibros.cpp" />
+		<Unit filename="ArchivoLibros.h" />
+		<Unit filename="ArchivoPagos.cpp" />
+		<Unit filename="ArchivoPagos.h" />
+		<Unit filename="ArchivoPrestamos.cpp" />
+		<Unit filename="ArchivoPrestamos.h" />
+		<Unit filename="ArchivoSocios.cpp" />
+		<Unit filename="ArchivoSocios.h" />
+		<Unit filename="ArchivoSuscripciones.cpp" />
+		<Unit filename="ArchivoSuscripciones.h" />
+		<Unit filename="Autor.cpp" />
+		<Unit filename="Autor.h" />
+		<Unit filename="Fecha1.cpp" />
+		<Unit filename="Fecha1.h" />
+		<Unit filename="Libro.cpp" />
+		<Unit filename="Libro.h" />
+		<Unit filename="Pago.cpp" />
+		<Unit filename="Pago.h" />
+		<Unit filename="Prestamo.cpp" />
+		<Unit filename="Prestamo.h" />
+		<Unit filename="Socio.cpp" />
+		<Unit filename="Socio.h" />
+		<Unit filename="Suscripcion.cpp" />
+		<Unit filename="Suscripcion.h" />
+		<Unit filename="funcionesMenuAutores.cpp" />
+		<Unit filename="funcionesMenuAutores.h" />
+		<Unit filename="funcionesMenuInformes.cpp" />
+		<Unit filename="funcionesMenuInformes.h" />
+		<Unit filename="funcionesMenuLibros.cpp" />
+		<Unit filename="funcionesMenuLibros.h" />
+		<Unit filename="funcionesMenuPagos.cpp" />
+		<Unit filename="funcionesMenuPagos.h" />
+		<Unit filename="funcionesMenuPrestamos.cpp" />
+		<Unit filename="funcionesMenuPrestamos.h" />
+		<Unit filename="funcionesMenuSocios.cpp" />
+		<Unit filename="funcionesMenuSocios.h" />
+		<Unit filename="funcionesMenuSuscriptores.cpp" />
+		<Unit filename="funcionesMenuSuscriptores.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menuAutores.h" />
+		<Unit filename="menuInformes.h" />
+		<Unit filename="menuLibros.h" />
+		<Unit filename="menuPagos.h" />
+		<Unit filename="menuPrestamos.h" />
+		<Unit filename="menuSocios.h" />
+		<Unit filename="menuSuscripciones.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

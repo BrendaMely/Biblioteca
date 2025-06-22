@@ -1,0 +1,404 @@
+# depslib dependency file v1.0
+1748729801 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\main.cpp
+	<iostream>
+	<cstring>
+	"menuSocios.h"
+	"menuSuscripciones.h"
+	"menuAutores.h"
+	"menuLibros.h"
+	"menuPrestamos.h"
+	"menuPagos.h"
+	"menuInformes.h"
+	"Fecha1.h"
+
+1748257692 c:\users\user\desktop\biblioteca\proyectobiblioteca\menusocios.h
+	<iostream>
+	"funcionesMenuSocios.h"
+
+1748295379 c:\users\user\desktop\biblioteca\proyectobiblioteca\menulibros.h
+	<iostream>
+	"funcionesMenuLibros.h"
+
+1748259386 c:\users\user\desktop\biblioteca\proyectobiblioteca\menuprestamos.h
+	<iostream>
+	"funcionesMenuPrestamos.h"
+
+1748259922 c:\users\user\desktop\biblioteca\proyectobiblioteca\menupagos.h
+	<iostream>
+	"funcionesMenuPagos.h"
+
+1748257182 c:\users\user\desktop\biblioteca\proyectobiblioteca\menuinformes.h
+	<iostream>
+	"funcionesMenuInformes.h"
+
+1748257692 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenusocios.h
+
+1748257692 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenusocios.cpp
+	<iostream>
+	"funcionesMenuSocios.h"
+
+1748258530 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenulibros.h
+
+1748258530 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenulibros.cpp
+	<iostream>
+	"funcionesMenuLibros.h"
+
+1748259386 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuprestamos.h
+
+1748259386 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuprestamos.cpp
+	<iostream>
+	"funcionesMenuPrestamos.h"
+
+1748259922 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenupagos.h
+
+1748259922 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenupagos.cpp
+	<iostream>
+	"funcionesMenuPagos.h"
+
+1748257182 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuinformes.h
+
+1748257182 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuinformes.cpp
+	<iostream>
+	"funcionesMenuInformes.h"
+
+1747802664 c:\users\user\desktop\biblioteca\proyectobiblioteca\fecha.h
+
+1750079786 c:\users\user\desktop\biblioteca\proyectobiblioteca\fecha1.h
+
+1750079765 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\fecha1.cpp
+	<iostream>
+	"Fecha1.h"
+
+1748729801 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuautores.cpp
+	<iostream>
+	"funcionesMenuAutores.h"
+
+1748729801 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenuautores.h
+
+1748729801 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenususcriptores.cpp
+	<iostream>
+	"funcionesMenuSuscriptores.h"
+
+1748729801 c:\users\user\desktop\biblioteca\proyectobiblioteca\funcionesmenususcriptores.h
+
+1748729824 c:\users\user\desktop\biblioteca\proyectobiblioteca\menususcripciones.h
+	<iostream>
+	"funcionesMenuSuscriptores.h"
+
+1748729851 c:\users\user\desktop\biblioteca\proyectobiblioteca\menuautores.h
+	<iostream>
+	"funcionesMenuAutores.h"
+
+1750079765 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\socio.cpp
+	"Socio.h"
+	"ArchivoSocios.h"
+	<iostream>
+	<cstring>
+	<cctype>
+
+1750030408 c:\users\user\desktop\biblioteca\proyectobiblioteca\socio.h
+	"Fecha1.h"
+
+1750118066 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\suscripcion.cpp
+	"Suscripcion.h"
+	"Socio.h"
+	"ArchivoSuscripciones.h"
+	<iostream>
+	<cstring>
+
+1750100195 c:\users\user\desktop\biblioteca\proyectobiblioteca\suscripcion.h
+	"Fecha1.h"
+
+1750124154 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\autor.cpp
+	"Autor.h"
+	"ArchivoAutores.h"
+	<iostream>
+	<cstring>
+
+1750124035 c:\users\user\desktop\biblioteca\proyectobiblioteca\autor.h
+
+1750466181 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\libro.cpp
+	"Libro.h"
+	"ArchivoLibros.h"
+	<iostream>
+	<cstring>
+
+1750465471 c:\users\user\desktop\biblioteca\proyectobiblioteca\libro.h
+	"Fecha1.h"
+
+1748828244 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\prestamo.cpp
+	"Prestamo.h"
+	<iostream>
+	<cstring>
+
+1750480113 c:\users\user\desktop\biblioteca\proyectobiblioteca\prestamo.h
+	"Fecha1.h"
+
+1748829017 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\pago.cpp
+	"Pago.h"
+	<iostream>
+	<cstring>
+
+1748829017 c:\users\user\desktop\biblioteca\proyectobiblioteca\pago.h
+	"Fecha1.h"
+
+1749012388 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\archivosocios.cpp
+	"ArchivoSocios.h"
+	"Socio.h"
+	<iostream>
+	<cstring>
+
+1749011303 c:\users\user\desktop\biblioteca\proyectobiblioteca\archivosocios.h
+	"Socio.h"
+	"string.h"
+
+1750094120 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\archivosuscripciones.cpp
+	"ArchivoSuscripciones.h"
+	"Suscripcion.h"
+	"Socio.h"
+	<iostream>
+	<cstring>
+
+1750083380 c:\users\user\desktop\biblioteca\proyectobiblioteca\archivosuscripciones.h
+	"Suscripcion.h"
+	"string.h"
+
+1750121892 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\archivoautores.cpp
+	"ArchivoAutores.h"
+	"Autor.h"
+	<iostream>
+	<cstring>
+
+1750121892 c:\users\user\desktop\biblioteca\proyectobiblioteca\archivoautores.h
+	"Autor.h"
+	"string.h"
+
+1750462439 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\archivolibros.cpp
+	"ArchivoLibros.h"
+	"Libro.h"
+	"Autor.h"
+	<iostream>
+	<cstring>
+
+1750462439 c:\users\user\desktop\biblioteca\proyectobiblioteca\archivolibros.h
+	"Libro.h"
+	"string.h"
+
+1750472363 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\archivoprestamos.cpp
+	"ArchivoPrestamos.h"
+	"Prestamo.h"
+	<iostream>
+	<cstring>
+
+1750472363 c:\users\user\desktop\biblioteca\proyectobiblioteca\archivoprestamos.h
+	"Prestamo.h"
+	"string.h"
+
+1748811681 source:c:\users\user\desktop\biblioteca\proyectobiblioteca\archivopagos.cpp
+	"ArchivoPagos.h"
+	"Pago.h"
+	<iostream>
+	<cstring>
+
+1748811681 c:\users\user\desktop\biblioteca\proyectobiblioteca\archivopagos.h
+	"Pago.h"
+	"string.h"
+
+1750121892 source:c:\users\user\desktop\proyectobiblioteca\archivoautores.cpp
+	"ArchivoAutores.h"
+	"Autor.h"
+	<iostream>
+	<cstring>
+
+1750121892 c:\users\user\desktop\proyectobiblioteca\archivoautores.h
+	"Autor.h"
+	"string.h"
+
+1750124035 c:\users\user\desktop\proyectobiblioteca\autor.h
+
+1750462439 source:c:\users\user\desktop\proyectobiblioteca\archivolibros.cpp
+	"ArchivoLibros.h"
+	"Libro.h"
+	"Autor.h"
+	<iostream>
+	<cstring>
+
+1750462439 c:\users\user\desktop\proyectobiblioteca\archivolibros.h
+	"Libro.h"
+	"string.h"
+
+1750465471 c:\users\user\desktop\proyectobiblioteca\libro.h
+	"Fecha1.h"
+
+1750079786 c:\users\user\desktop\proyectobiblioteca\fecha1.h
+
+1748811681 source:c:\users\user\desktop\proyectobiblioteca\archivopagos.cpp
+	"ArchivoPagos.h"
+	"Pago.h"
+	<iostream>
+	<cstring>
+
+1748811681 c:\users\user\desktop\proyectobiblioteca\archivopagos.h
+	"Pago.h"
+	"string.h"
+
+1748829017 c:\users\user\desktop\proyectobiblioteca\pago.h
+	"Fecha1.h"
+
+1750472363 source:c:\users\user\desktop\proyectobiblioteca\archivoprestamos.cpp
+	"ArchivoPrestamos.h"
+	"Prestamo.h"
+	<iostream>
+	<cstring>
+
+1750472363 c:\users\user\desktop\proyectobiblioteca\archivoprestamos.h
+	"Prestamo.h"
+	"string.h"
+
+1750598722 c:\users\user\desktop\proyectobiblioteca\prestamo.h
+	"Fecha1.h"
+
+1749012388 source:c:\users\user\desktop\proyectobiblioteca\archivosocios.cpp
+	"ArchivoSocios.h"
+	"Socio.h"
+	<iostream>
+	<cstring>
+
+1749011303 c:\users\user\desktop\proyectobiblioteca\archivosocios.h
+	"Socio.h"
+	"string.h"
+
+1750030408 c:\users\user\desktop\proyectobiblioteca\socio.h
+	"Fecha1.h"
+
+1750094120 source:c:\users\user\desktop\proyectobiblioteca\archivosuscripciones.cpp
+	"ArchivoSuscripciones.h"
+	"Suscripcion.h"
+	"Socio.h"
+	<iostream>
+	<cstring>
+
+1750083380 c:\users\user\desktop\proyectobiblioteca\archivosuscripciones.h
+	"Suscripcion.h"
+	"string.h"
+
+1750100195 c:\users\user\desktop\proyectobiblioteca\suscripcion.h
+	"Fecha1.h"
+
+1750124154 source:c:\users\user\desktop\proyectobiblioteca\autor.cpp
+	"Autor.h"
+	"ArchivoAutores.h"
+	<iostream>
+	<cstring>
+
+1750079765 source:c:\users\user\desktop\proyectobiblioteca\fecha1.cpp
+	<iostream>
+	"Fecha1.h"
+
+1748729801 source:c:\users\user\desktop\proyectobiblioteca\funcionesmenuautores.cpp
+	<iostream>
+	"funcionesMenuAutores.h"
+
+1748729801 c:\users\user\desktop\proyectobiblioteca\funcionesmenuautores.h
+
+1748257182 source:c:\users\user\desktop\proyectobiblioteca\funcionesmenuinformes.cpp
+	<iostream>
+	"funcionesMenuInformes.h"
+
+1748257182 c:\users\user\desktop\proyectobiblioteca\funcionesmenuinformes.h
+
+1748258530 source:c:\users\user\desktop\proyectobiblioteca\funcionesmenulibros.cpp
+	<iostream>
+	"funcionesMenuLibros.h"
+
+1748258530 c:\users\user\desktop\proyectobiblioteca\funcionesmenulibros.h
+
+1748259922 source:c:\users\user\desktop\proyectobiblioteca\funcionesmenupagos.cpp
+	<iostream>
+	"funcionesMenuPagos.h"
+
+1748259922 c:\users\user\desktop\proyectobiblioteca\funcionesmenupagos.h
+
+1748259386 source:c:\users\user\desktop\proyectobiblioteca\funcionesmenuprestamos.cpp
+	<iostream>
+	"funcionesMenuPrestamos.h"
+
+1748259386 c:\users\user\desktop\proyectobiblioteca\funcionesmenuprestamos.h
+
+1748257692 source:c:\users\user\desktop\proyectobiblioteca\funcionesmenusocios.cpp
+	<iostream>
+	"funcionesMenuSocios.h"
+
+1748257692 c:\users\user\desktop\proyectobiblioteca\funcionesmenusocios.h
+
+1748729801 source:c:\users\user\desktop\proyectobiblioteca\funcionesmenususcriptores.cpp
+	<iostream>
+	"funcionesMenuSuscriptores.h"
+
+1748729801 c:\users\user\desktop\proyectobiblioteca\funcionesmenususcriptores.h
+
+1750466181 source:c:\users\user\desktop\proyectobiblioteca\libro.cpp
+	"Libro.h"
+	"ArchivoLibros.h"
+	<iostream>
+	<cstring>
+
+1748729801 source:c:\users\user\desktop\proyectobiblioteca\main.cpp
+	<iostream>
+	<cstring>
+	"menuSocios.h"
+	"menuSuscripciones.h"
+	"menuAutores.h"
+	"menuLibros.h"
+	"menuPrestamos.h"
+	"menuPagos.h"
+	"menuInformes.h"
+	"Fecha1.h"
+
+1748257692 c:\users\user\desktop\proyectobiblioteca\menusocios.h
+	<iostream>
+	"funcionesMenuSocios.h"
+
+1748729824 c:\users\user\desktop\proyectobiblioteca\menususcripciones.h
+	<iostream>
+	"funcionesMenuSuscriptores.h"
+
+1748729851 c:\users\user\desktop\proyectobiblioteca\menuautores.h
+	<iostream>
+	"funcionesMenuAutores.h"
+
+1748295379 c:\users\user\desktop\proyectobiblioteca\menulibros.h
+	<iostream>
+	"funcionesMenuLibros.h"
+
+1748259386 c:\users\user\desktop\proyectobiblioteca\menuprestamos.h
+	<iostream>
+	"funcionesMenuPrestamos.h"
+
+1748259922 c:\users\user\desktop\proyectobiblioteca\menupagos.h
+	<iostream>
+	"funcionesMenuPagos.h"
+
+1748257182 c:\users\user\desktop\proyectobiblioteca\menuinformes.h
+	<iostream>
+	"funcionesMenuInformes.h"
+
+1748829017 source:c:\users\user\desktop\proyectobiblioteca\pago.cpp
+	"Pago.h"
+	<iostream>
+	<cstring>
+
+1750079765 source:c:\users\user\desktop\proyectobiblioteca\socio.cpp
+	"Socio.h"
+	"ArchivoSocios.h"
+	<iostream>
+	<cstring>
+	<cctype>
+
+1750118066 source:c:\users\user\desktop\proyectobiblioteca\suscripcion.cpp
+	"Suscripcion.h"
+	"Socio.h"
+	"ArchivoSuscripciones.h"
+	<iostream>
+	<cstring>
+
