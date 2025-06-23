@@ -1,5 +1,4 @@
 #pragma once
-
 #include "Socio.h"
 #include "string.h"
 
@@ -15,10 +14,19 @@ public:
     }
 
     int buscarSocioXDNI(const char* dniSocio);
+
+    int getCantidadRegistros();
+    bool agregarRegistro(Socio regSocio);
+    Socio leer(int pos);
+    void listarRegistros();
+    int buscarID(int id);
+    bool modificarRegistro(Socio reg, int pos);
+    bool bajaRegistro(int id);
+
+
+
 /*
-int agregarRegistro();
-int agregarRegistro(Socio regSocio);
-bool listarRegistros();
+
 bool listarRegistrosOrdenadosPorIdSocio();
 bool listarRegistrosOrdenadosPorApellido();
 int buscarSocioPorDNI();

@@ -220,7 +220,9 @@ using namespace std;
         }
     }
 
-
+    void Socio::setEstado(bool estado){
+        _estado = estado;
+    }
 
     char* Socio:: getDni(){
         return _dni;
@@ -247,9 +249,7 @@ using namespace std;
         return _idSocio;
     }
 
-
-
-
+    bool Socio:: getEstado(){return _estado;}
 
 
 ///metodos:
@@ -336,7 +336,7 @@ using namespace std;
 
         _telefono[0]='\0';
         while(_telefono[0]=='\0'){
-            cout<<"Ingrese Telefono: (Codigo de area sin 0 - Ej. 3511234567)";
+            cout<<"Ingrese Telefono (Codigo de area sin 0 - Ej. 3511234567): ";
             cin.getline(ingresoDeDatosParaValidar, 100);
             setTelefono(ingresoDeDatosParaValidar);
         }
@@ -344,7 +344,7 @@ using namespace std;
 
         _direccion[0]='\0';
         while(_direccion[0]=='\0'){
-            cout<<"Ingrese Direccion: (Calle y Numero)";
+            cout<<"Ingrese Direccion (Calle y Numero): ";
             cin.getline(ingresoDeDatosParaValidar, 100);
             setDireccion(ingresoDeDatosParaValidar);
         }
@@ -362,7 +362,7 @@ using namespace std;
         bool fechaValida=false;
 
         while(!fechaValida){
-            cout<<"Ingrese Fecha de Nacimiento: ";
+            cout<<"Ingrese Fecha de Nacimiento: "<<endl;
             int dia, mes, anio;
             cout<<"Dia: ";
             cin>>dia;
@@ -379,42 +379,41 @@ using namespace std;
                 fechaValida=true;
             }
             else{
-                cout<<"Ingrese nuevamente la fecha de nacimiento "<<endl;
+                cout<<"Ingrese nuevamente la fecha de nacimiento: "<<endl;
             }
-
         }
 
 
-        cout<<"Ingrese Id Docio: ";
+        cout<<"Ingrese ID Socio: ";
         cin>>_idSocio;
         setIdSocio(_idSocio);
         cin.ignore(1000, '\n');
 
         while(_idSocio==-1){
-            cout<<"Vuelve a ingresar IdSocio (8 digitos):" <<endl;
+            cout<<"Vuelve a ingresar IdSocio (8 digitos): " <<endl;
             cin>>_idSocio;
             setIdSocio(_idSocio);
             cin.ignore(1000, '\n');
         }
 
+        _estado = true;
+
         return true;
 
     }
 
-
-
-
-
     void Socio:: Mostrar(){
-        cout<<"Datos del Socio: "<<endl;
-        cout<<"Dni: "<<_dni<<endl;
-        cout<<"Nombre: "<<_nombre<<endl;
-        cout<<"Apellido: "<<_apellido<<endl;
-        cout<<"Telefono: "<<_telefono<<endl;
-        cout<<"Direccion: "<<_direccion<<endl;
-        cout<<"Email: "<<_email<<endl;
-        cout<<"Fecha de Nacimiento: "<<endl;
+        cout<<"---- Datos del Socio ----"<<endl;
+        cout<<"DNI       : "<<_dni<<endl;
+        cout<<"Nombre    : "<<_nombre<<endl;
+        cout<<"Apellido  : "<<_apellido<<endl;
+        cout<<"Telefono  : "<<_telefono<<endl;
+        cout<<"Direccion : "<<_direccion<<endl;
+        cout<<"Email     : "<<_email<<endl;
+        cout<<"Fecha Nac.: ";
         _fechaDeNacimiento.Mostrar();
-        cout<<"Id Socio: "<<_idSocio<<endl;
+        cout<<"ID Socio  : "<<_idSocio<<endl;
     }
+
+
 

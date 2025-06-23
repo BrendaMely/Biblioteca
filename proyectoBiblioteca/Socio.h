@@ -12,6 +12,7 @@ private:
     char _email[50];
     Fecha _fechaDeNacimiento;
     int _idSocio;
+    bool _estado;
 
 
 public:
@@ -25,6 +26,7 @@ public:
     void setEmail(const char*email);
     void setFechaDeNacimiento(Fecha fechaDeNacimiento);
     void setIdSocio(int idSocio);
+    void setEstado(bool _estado);
 
     char* getDni();
     char* getNombre();
@@ -34,9 +36,10 @@ public:
     char* getEmail();
     Fecha getFechaDeNacimiento();
     int getIdSocio();
+    bool getEstado();
 
     ///metodos:
-   bool Cargar(const char* nuevoDni="NADA");
+    bool Cargar(const char* nuevoDni="NADA");
     void Mostrar();
 
 };

@@ -67,7 +67,7 @@ using namespace std;
 
 
     bool Fecha:: setAnio(int anio){
-        if(anio<=1 && anio<=9999){
+        if(anio>=1 && anio<=9999){
           _anio=anio;
           return true;
         }

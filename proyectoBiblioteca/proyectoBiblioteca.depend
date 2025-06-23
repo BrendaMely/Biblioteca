@@ -402,3 +402,211 @@
 	<iostream>
 	<cstring>
 
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivoautores.cpp
+	"ArchivoAutores.h"
+	"Autor.h"
+	<iostream>
+	<cstring>
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivoautores.h
+	"Autor.h"
+	"string.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\autor.h
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivolibros.cpp
+	"ArchivoLibros.h"
+	"Libro.h"
+	"Autor.h"
+	<iostream>
+	<cstring>
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivolibros.h
+	"Libro.h"
+	"string.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\libro.h
+	"Fecha1.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\fecha1.h
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivopagos.cpp
+	"ArchivoPagos.h"
+	"Pago.h"
+	<iostream>
+	<cstring>
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivopagos.h
+	"Pago.h"
+	"string.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\pago.h
+	"Fecha1.h"
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivoprestamos.cpp
+	"ArchivoPrestamos.h"
+	"Prestamo.h"
+	<iostream>
+	<cstring>
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivoprestamos.h
+	"Prestamo.h"
+	"string.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\prestamo.h
+	"Fecha1.h"
+
+1750635472 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivosocios.cpp
+	"ArchivoSocios.h"
+	<iostream>
+	<string>
+	<cstring>
+
+1750635322 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivosocios.h
+	"Socio.h"
+	"string.h"
+
+1750627938 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\socio.h
+	"Fecha1.h"
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivosuscripciones.cpp
+	"ArchivoSuscripciones.h"
+	"Suscripcion.h"
+	"Socio.h"
+	<iostream>
+	<cstring>
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\archivosuscripciones.h
+	"Suscripcion.h"
+	"string.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\suscripcion.h
+	"Fecha1.h"
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\autor.cpp
+	"Autor.h"
+	"ArchivoAutores.h"
+	<iostream>
+	<cstring>
+
+1750611277 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\fecha1.cpp
+	<iostream>
+	"Fecha1.h"
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenuautores.cpp
+	<iostream>
+	"funcionesMenuAutores.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenuautores.h
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenuinformes.cpp
+	<iostream>
+	"funcionesMenuInformes.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenuinformes.h
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenulibros.cpp
+	<iostream>
+	"funcionesMenuLibros.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenulibros.h
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenupagos.cpp
+	<iostream>
+	"funcionesMenuPagos.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenupagos.h
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenuprestamos.cpp
+	<iostream>
+	"funcionesMenuPrestamos.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenuprestamos.h
+
+1750640832 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenusocios.cpp
+	<iostream>
+	"funcionesMenuSocios.h"
+	<string>
+	<algorithm>
+
+1750624213 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenusocios.h
+	"Socio.h"
+	"ArchivoSocios.h"
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenususcriptores.cpp
+	<iostream>
+	"funcionesMenuSuscriptores.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\funcionesmenususcriptores.h
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\libro.cpp
+	"Libro.h"
+	"ArchivoLibros.h"
+	<iostream>
+	<cstring>
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\main.cpp
+	<iostream>
+	<cstring>
+	"menuSocios.h"
+	"menuSuscripciones.h"
+	"menuAutores.h"
+	"menuLibros.h"
+	"menuPrestamos.h"
+	"menuPagos.h"
+	"menuInformes.h"
+	"Fecha1.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\menusocios.h
+	<iostream>
+	"funcionesMenuSocios.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\menususcripciones.h
+	<iostream>
+	"funcionesMenuSuscriptores.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\menuautores.h
+	<iostream>
+	"funcionesMenuAutores.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\menulibros.h
+	<iostream>
+	"funcionesMenuLibros.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\menuprestamos.h
+	<iostream>
+	"funcionesMenuPrestamos.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\menupagos.h
+	<iostream>
+	"funcionesMenuPagos.h"
+
+1750607589 c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\menuinformes.h
+	<iostream>
+	"funcionesMenuInformes.h"
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\pago.cpp
+	"Pago.h"
+	<iostream>
+	<cstring>
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\prestamo.cpp
+	"Prestamo.h"
+	"ArchivoPrestamos.h"
+	<iostream>
+	<cstring>
+
+1750631120 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\socio.cpp
+	"Socio.h"
+	"ArchivoSocios.h"
+	<iostream>
+	<cstring>
+	<cctype>
+
+1750607589 source:c:\users\daniel\desktop\repos\biblioteca\proyectobiblioteca\suscripcion.cpp
+	"Suscripcion.h"
+	"Socio.h"
+	"ArchivoSuscripciones.h"
+	<iostream>
+	<cstring>
+
